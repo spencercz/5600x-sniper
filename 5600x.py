@@ -11,6 +11,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.common.exceptions import NoSuchElementException
 
 print("Welcome to the AMD Ryzen 5 5600x sniper by @spencer_cz")
+print("WARNING: This script will purchase any available 5600x REGARDLESS of price. Be wary!")
 driver = webdriver.Firefox()
 
 def setup():
